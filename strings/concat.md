@@ -3,29 +3,21 @@
 Concatenation involves adding two or more strings together, creating a larger string containing the combined data of those original strings. This is done in JavaScript using the **+** operator.
 
 ```js
-var bigStr = 'Hi ' + 'JS strings are nice ' + 'and ' + 'easy to add';
+var bigStr = "Hi " + "JS strings are nice " + "and " + "easy to add";
 ```
 
----
-
-Add up the different names so that the `fullName` variable. Contains John's complete name.
-
-```js
+{% exercise %}
+Add up the different names so that the `fullName` variable contains John's complete name.
+{% initial %}
 var firstName = "John";
 var lastName = "Smith";
 
 var fullName =
-```
-
-```js
+{% solution %}
 var firstName = "John";
 var lastName = "Smith";
 
 var fullName = firstName + " " + lastName;
-```
-
-```js
+{% validation %}
 assert(fullName === 'John Smith');
-```
-
----
+{% endexercise %}
